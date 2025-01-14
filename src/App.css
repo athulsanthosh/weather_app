@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url('https://i.pinimg.com/originals/ab/fb/36/abfb361e405a15980f0a0f65b2273443.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    min-height: 100vh;
+}
+.container{
+    background: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+.card{
+    background: rgba(255,255,255,0.2);
+    border-radius: 15px;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+}
+.card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.card-text{
+    margin: 5px 0;
+}
+.input-group{
+    margin-bottom: 20px;
+}
+.form-control{
+    border-radius: 5px 0 0 5px;
+    border: none;
+}
+.btn-primary{
+    border-radius: 0 5px 5px 0;
+    background-color: #007bff;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: #0056b3;
+}
+.card img{
+    width:100px;
+    height: 100px;
+}
+.card h2{
+    font-size: 1.8rem;
+}
+.card p{
+    margin: 10px 0;
+}
